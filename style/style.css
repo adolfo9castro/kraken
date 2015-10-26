@@ -1,0 +1,468 @@
+@font-face {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Std 45 Light'), url('../font/HelveticaNeueLTStd Lt.woff') format('woff');
+}
+
+body{
+	margin: 0;
+	padding: 0;
+    font-family: 'Helvetica';
+    background-image: 
+}
+
+nav ul{
+	position: relative;
+	width: 100%;
+	padding: 5px 3% 5px;
+	margin: 0 auto 
+}
+
+nav ul li{
+	list-style: outside none none;
+	float: left;
+	margin: 0px 4% 1px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+nav ul li:last-child{
+	margin-right: 0
+}
+
+img{
+	width: 100%;
+}
+
+section{
+	background-image: url("../img/background.png");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+.content{
+	margin: 0 auto;
+	width: 90%;
+	position: relative;
+}
+
+.images{
+	float: left;
+	width: 23%;
+}
+
+.imagenUno{
+	height: 640px
+}
+
+.imagenDos.images {
+    float: right;
+    width: 35%;
+    margin-top: -90px;
+}
+
+.logoKraken{
+	float: left;
+	width: 45%;
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 460px;
+}
+
+.video{
+	float: right;
+	display: block;
+	background-color: #FFF;
+	width: 57%;
+	height: 500px;
+}
+
+.texto{
+	float: right;
+	height: 225px;
+	margin: 0px;
+	position: relative;
+	width: 70%;
+	z-index: -1;
+	}
+
+.texto p {
+	color: #fff;
+    float: right;
+    font-size: 26px;
+    font-weight: bolder;
+    margin: 70px 0 0;
+    text-align: left;
+    text-shadow: 0 0 1px #2a2a2a;
+    width: 77%;
+}
+
+footer{
+	width: 100%;
+    z-index: 99;
+    bottom: 0px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    margin: 0px;
+}
+
+
+footer a img{
+	float: right;
+	width: initial;
+}
+
+#queEsKraken, #universidad, #filminutos, #transformacion, #historiasVida{
+	position: absolute;
+	width: 100%;
+	display: none;
+	background-color: #FFF;
+	z-index: 99;
+	height: 1040px;
+}
+
+.header{
+	width: 100%;
+	float: left;
+	z-index: 999;
+	background-image: url("../img/background.png");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	position: fixed;
+}
+
+#transformacion .header, #filminutos .header, #universidad .header{
+	background-size: 50% auto;
+}
+
+.header h1{
+	float: right;
+	color: #2B2A29;
+	font-size: 70px;
+	text-align: center;
+	width: 50%;
+	margin: 1%;
+}
+
+.izquierda{
+	float: left;
+	width: 23%;
+	margin: 300px 180px 0;
+}
+
+.derecha{
+	float: left;
+	width: 50%;
+	font-size: 30px;
+	padding: 0px 3% 3%;
+	height: 670px;
+	overflow: none;
+	margin-top: 270px;
+}
+
+
+.derechaDos {
+    float: left;
+    font-size: 30px;
+    height: 352px;
+    margin-top: 270px;
+    overflow: auto;
+    padding: 0 3% 3%;
+    width: 42%;
+}
+
+.derecha p{
+	line-height: 1.5
+}
+
+#backMenu, #backMenu2, #backMenu3, #backMenu4, #backMenu5{
+	float: left;
+	color: #2B2A29;
+	font-size: 30px;
+	text-align: left;
+	width: 40%;
+	margin: 1%;
+	cursor: pointer;
+	text-shadow: 1px 1px 2px #FFF;
+}
+
+#historiasVida .header{
+	background-image: url("../img/background_2.png");
+	background-size: 50% auto;
+	background-repeat: no-repeat;
+	height: 680px;
+	position: relative;
+}
+
+#historiasVida .izquierda{
+	width: 40%;
+	margin: 0 50px 0;
+
+}
+
+#historiasVida .derecha{
+	width: 40%;
+	margin: 0 50px 0;
+	height: 100%
+}
+
+#historiasVida h2{
+	margin-top: 30px;
+	font-size: 40px
+}
+
+#historiasVida .header h1 {
+    float: right;
+    color: #2B2A29;
+    font-size: 110px;
+    text-align: center;
+    width: 50%;
+    margin: 11%;
+}
+
+#universidad p{
+	font-size: 30px;
+	margin-bottom: 40px
+}
+
+.videoUno{
+	width: 100%;
+	position: relative;
+	z-index: 0
+}
+
+.videoUnder{
+	z-index: 1;
+	position: relative;
+}
+
+.cortina{
+	height: 500px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 70%;
+    z-index: 1;
+	background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+.cortina img{
+	 display: block;
+    margin: 110px auto 0;
+    position: relative;
+    width: 100px;
+}
+
+
+.cortina p{
+	text-align: center;
+	font-size: 25px;
+}
+
+
+#contentLoader{
+	background-color: #6DC2D4;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 100;
+	min-height: 1100px;
+}
+
+.loader {
+  font-size: 90px;
+  text-indent: -9999em;
+  overflow: hidden;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: 72px auto;
+  position: relative;
+  margin-top: 15%;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load6 1.7s infinite ease;
+  animation: load6 1.7s infinite ease;
+}
+@-webkit-keyframes load6 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    box-shadow: 0 -0.83em 0 -0.4em #ffffff, 0 -0.83em 0 -0.42em #ffffff, 0 -0.83em 0 -0.44em #ffffff, 0 -0.83em 0 -0.46em #ffffff, 0 -0.83em 0 -0.477em #ffffff;
+  }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em #ffffff, 0 -0.83em 0 -0.42em #ffffff, 0 -0.83em 0 -0.44em #ffffff, 0 -0.83em 0 -0.46em #ffffff, 0 -0.83em 0 -0.477em #ffffff;
+  }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em #ffffff, -0.087em -0.825em 0 -0.42em #ffffff, -0.173em -0.812em 0 -0.44em #ffffff, -0.256em -0.789em 0 -0.46em #ffffff, -0.297em -0.775em 0 -0.477em #ffffff;
+  }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em #ffffff, -0.338em -0.758em 0 -0.42em #ffffff, -0.555em -0.617em 0 -0.44em #ffffff, -0.671em -0.488em 0 -0.46em #ffffff, -0.749em -0.34em 0 -0.477em #ffffff;
+  }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em #ffffff, -0.377em -0.74em 0 -0.42em #ffffff, -0.645em -0.522em 0 -0.44em #ffffff, -0.775em -0.297em 0 -0.46em #ffffff, -0.82em -0.09em 0 -0.477em #ffffff;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    box-shadow: 0 -0.83em 0 -0.4em #ffffff, 0 -0.83em 0 -0.42em #ffffff, 0 -0.83em 0 -0.44em #ffffff, 0 -0.83em 0 -0.46em #ffffff, 0 -0.83em 0 -0.477em #ffffff;
+  }
+}
+@keyframes load6 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    box-shadow: 0 -0.83em 0 -0.4em #ffffff, 0 -0.83em 0 -0.42em #ffffff, 0 -0.83em 0 -0.44em #ffffff, 0 -0.83em 0 -0.46em #ffffff, 0 -0.83em 0 -0.477em #ffffff;
+  }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em #ffffff, 0 -0.83em 0 -0.42em #ffffff, 0 -0.83em 0 -0.44em #ffffff, 0 -0.83em 0 -0.46em #ffffff, 0 -0.83em 0 -0.477em #ffffff;
+  }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em #ffffff, -0.087em -0.825em 0 -0.42em #ffffff, -0.173em -0.812em 0 -0.44em #ffffff, -0.256em -0.789em 0 -0.46em #ffffff, -0.297em -0.775em 0 -0.477em #ffffff;
+  }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em #ffffff, -0.338em -0.758em 0 -0.42em #ffffff, -0.555em -0.617em 0 -0.44em #ffffff, -0.671em -0.488em 0 -0.46em #ffffff, -0.749em -0.34em 0 -0.477em #ffffff;
+  }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em #ffffff, -0.377em -0.74em 0 -0.42em #ffffff, -0.645em -0.522em 0 -0.44em #ffffff, -0.775em -0.297em 0 -0.46em #ffffff, -0.82em -0.09em 0 -0.477em #ffffff;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    box-shadow: 0 -0.83em 0 -0.4em #ffffff, 0 -0.83em 0 -0.42em #ffffff, 0 -0.83em 0 -0.44em #ffffff, 0 -0.83em 0 -0.46em #ffffff, 0 -0.83em 0 -0.477em #ffffff;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px){
+	.video {
+	    height: 270px;
+	}
+
+	.logoKraken {
+	    top: 280px;
+	}
+
+	.texto {	    
+	    height: 191px;	   
+	    width: 69%;
+	}
+
+	.logoKraken {
+	    width: 45%;	   
+	}
+
+	.cortina {
+	    height: 320px;	    
+	}
+
+	.imagenDos.images {	    
+	    display: none;
+	}
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px){
+	.video {
+	    height: 300px;
+	}
+
+	.logoKraken {
+	    top: 280px;
+	}
+
+	.texto {	    
+	    height: 191px;	   
+	    width: 69%;
+	    background-image:none;
+	}
+
+	.logoKraken {
+	    width: 45%;	   
+	}
+
+	.cortina {
+	    height: 363px;
+	}
+
+	.imagenDos.images {	    
+	    display: none;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px){
+	.video {
+	    height: 450px;
+	}
+
+	.logoKraken {
+	    top: 280px;
+	}
+
+	.texto {	    
+	    height: 191px;	   
+	    width: 69%;
+	    background-image:none;
+	}
+
+	.logoKraken {
+	    width: 45%;	 
+	    top: 350px;  
+	}
+
+	.cortina {
+	   height: 481px;
+	}
+
+	.imagenDos.images {	    
+	    display: none;
+	}
+}
+
+
+#universidad img{
+	width: 60%;
+	margin: 0px 0 0 15%;	
+}
+
+#universidad .derechaDos {
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top: 40px
+}
+
+#universidad .derechaDos img{
+    width: 100%;
+}
+
+#videoKraken{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	display: none;
+	position: fixed;
+	z-index: 999999
+}
+
+#cerrarVideo{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	cursor: pointer;
+	color: #FFF;
+	font-size: 60px;
+}
+
+#openVideoKraken{
+	cursor: pointer;
+	color: #3691AA;
+}
