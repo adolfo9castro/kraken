@@ -2,7 +2,7 @@
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: normal;
-    src: local('Helvetica Neue LT Std 45 Light'), url('../font/HelveticaNeueLTStd Lt.woff') format('woff');
+    src: local('Helvetica Neue LT Std 45 Light'), url('../font/HelveticaNeueLTStdLt.woff') format('woff');
 }
 
 body{
